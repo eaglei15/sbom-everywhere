@@ -13,3 +13,4 @@ data_item:
   Abilities: list(enum('Compare', 'Consume', 'Convert', 'Edit', 'Generate', 'Merge', 'Validate', 'Sign'))
   Types: subset(enum('Design', 'Source', 'Build', 'Analyze', 'Deployment', 'Runtime', 'Container'), allow_empty=True)
   Languages: subset(str(), allow_empty=True)
+  Enrichments: list(enum('CPE', 'CVE', 'License', 'EPSS', 'CTI'))
